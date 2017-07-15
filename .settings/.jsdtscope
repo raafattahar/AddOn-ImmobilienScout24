@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry excluding="**/node_modules/*|**/bower_components/*|**/*.min.js|immobilienscout/" kind="src" path=""/>
-	<classpathentry kind="src" path="immobilienscout"/>
-	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.baseBrowserLibrary"/>
-	<classpathentry kind="output" path=""/>
-</classpath>
