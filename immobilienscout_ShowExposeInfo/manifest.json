@@ -1,0 +1,19 @@
+
+{
+	"manifest_version": 2,
+	"name": "Immobilienscoot parser",
+	"version": "1.0",
+
+	"description": "Parse immobilienscoot pages and show popup about the exact informations.",
+	
+	"icons": {
+	    "48": "icons/home16x16.png"
+	  },
+	  
+	"content_scripts": [
+	  {
+	    "matches":	["*://www.immobilienscout24.de/expose*?referrer*"],
+	    "js":		["parse.js"]
+	  }
+	]
+}
